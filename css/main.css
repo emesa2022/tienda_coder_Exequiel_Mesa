@@ -42,6 +42,7 @@ a {
     background-image: url("https://www.timingpolitico.com.ar/wp-content/uploads/2018/11/0023256620.jpg");
     background-size: contain;
     background-color: var(--clr-main);
+
 }
 
 aside {
@@ -144,13 +145,22 @@ aside {
     width: 95%;
 }
 
-.texto-footer {
+footer{
+    background-color: #303030e4;
     color: white;
+}
+
+.texto-footer {
     font-size: .85rem;
     padding: 30px;
     text-align: center;
-    background-color: #303030e4;
     margin-top: 10px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    gap: .4rem;
 }
 
 main {
